@@ -1,0 +1,48 @@
+body{
+    background: #101820FF;
+}
+h2{
+    text-align: center;
+    font-size: 4rem;
+    color: #F2AA4CFF;
+    font-family: 'Lobster', cursive;
+}
+h1{
+    text-align: center;
+    font-size: 6rem;
+    color: #F2AA4CFF;
+    font-family: 'Lobster', cursive;
+}
+p{
+    font-size: 2rem;
+    color: #F2AA4CFF;
+    font-family: 'Indie Flower', cursive;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dice{
+    margin: 0 15px;
+    text-align: center;
+}
+.reload{
+    border: none;
+    background: #F2AA4CFF;
+    color: #000;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 2px 4px 4px  gray;
+}
+.reload:active{
+    transform: scale(.9);
+}
+.foot{
+    text-align: right;
+    position: relative;
+    bottom: 40px;
+}

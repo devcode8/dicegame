@@ -1,15 +1,9 @@
 body{
     background: #101820FF;
 }
-h2{
-    text-align: center;
-    font-size: 4rem;
-    color: #F2AA4CFF;
-    font-family: 'Lobster', cursive;
-}
 h1{
     text-align: center;
-    font-size: 6rem;
+    font-size: 4rem;
     color: #F2AA4CFF;
     font-family: 'Lobster', cursive;
 }

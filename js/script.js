@@ -1,3 +1,5 @@
+document.querySelector("input").addEventListener("click",num);
+function num(){
 var number1=Math.floor(((Math.random())*6)+1);
 var number2=Math.floor(((Math.random())*6)+1);
 var image1="img/Dice"+number1+".png";
@@ -7,9 +9,10 @@ img1.setAttribute("src",image1);
 var img2=document.querySelectorAll("img")[1];
 img2.setAttribute("src",image2);
 if (number1>number2) {
-    document.querySelector("h2").innerHTML="🥳 Player 1 win"
+    document.querySelector("h1").innerHTML="🥳 Player 1 win"
 } else if(number2>number1){
-    document.querySelector("h2").innerHTML="Player 2 win 🥳 "
+    document.querySelector("h1").innerHTML="Player 2 win 🥳 "
 }else{
-    document.querySelector("h2").innerHTML="Match Draw"
+    document.querySelector("h1").innerHTML="Match Draw"
+}
 }
